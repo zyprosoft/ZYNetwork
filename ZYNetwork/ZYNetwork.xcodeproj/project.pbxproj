@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360BD50B1B54AA0C005C206F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD50A1B54AA0C005C206F /* main.m */; };
+		360BD50E1B54AA0C005C206F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD50D1B54AA0C005C206F /* AppDelegate.m */; };
+		360BD5101B54AA0C005C206F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360BD50F1B54AA0C005C206F /* Images.xcassets */; };
+		360BD5131B54AA0C005C206F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360BD5111B54AA0C005C206F /* LaunchScreen.xib */; };
+		360BD51F1B54AA0C005C206F /* ZYNetworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD51E1B54AA0C005C206F /* ZYNetworkTests.m */; };
+		360BD5361B54AA58005C206F /* TVGDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52B1B54AA58005C206F /* TVGDebugConsoleViewController.m */; };
+		360BD5371B54AA58005C206F /* TVGDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52B1B54AA58005C206F /* TVGDebugConsoleViewController.m */; };
+		360BD5381B54AA58005C206F /* TVGDebugLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52D1B54AA58005C206F /* TVGDebugLogger.m */; };
+		360BD5391B54AA58005C206F /* TVGDebugLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52D1B54AA58005C206F /* TVGDebugLogger.m */; };
+		360BD53A1B54AA58005C206F /* TVGDebugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52F1B54AA58005C206F /* TVGDebugModel.m */; };
+		360BD53B1B54AA58005C206F /* TVGDebugModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD52F1B54AA58005C206F /* TVGDebugModel.m */; };
+		360BD53C1B54AA58005C206F /* TVGDebugQuickUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5311B54AA58005C206F /* TVGDebugQuickUI.m */; };
+		360BD53D1B54AA58005C206F /* TVGDebugQuickUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5311B54AA58005C206F /* TVGDebugQuickUI.m */; };
+		360BD53E1B54AA58005C206F /* TVGDebugSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5331B54AA58005C206F /* TVGDebugSectionInfo.m */; };
+		360BD53F1B54AA58005C206F /* TVGDebugSectionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5331B54AA58005C206F /* TVGDebugSectionInfo.m */; };
+		360BD5401B54AA58005C206F /* TVGDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5351B54AA58005C206F /* TVGDebugViewController.m */; };
+		360BD5411B54AA58005C206F /* TVGDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5351B54AA58005C206F /* TVGDebugViewController.m */; };
+		360BD5451B54AAEC005C206F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5441B54AAEC005C206F /* DemoViewController.m */; };
+		360BD5461B54AAEC005C206F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360BD5441B54AAEC005C206F /* DemoViewController.m */; };
+		36CB73301B59F124003B4EA1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB731E1B59F124003B4EA1 /* AFHTTPRequestOperation.m */; };
+		36CB73311B59F124003B4EA1 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB731E1B59F124003B4EA1 /* AFHTTPRequestOperation.m */; };
+		36CB73321B59F124003B4EA1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73201B59F124003B4EA1 /* AFHTTPRequestOperationManager.m */; };
+		36CB73331B59F124003B4EA1 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73201B59F124003B4EA1 /* AFHTTPRequestOperationManager.m */; };
+		36CB73341B59F124003B4EA1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73221B59F124003B4EA1 /* AFHTTPSessionManager.m */; };
+		36CB73351B59F124003B4EA1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73221B59F124003B4EA1 /* AFHTTPSessionManager.m */; };
+		36CB73361B59F124003B4EA1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73251B59F124003B4EA1 /* AFNetworkReachabilityManager.m */; };
+		36CB73371B59F124003B4EA1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73251B59F124003B4EA1 /* AFNetworkReachabilityManager.m */; };
+		36CB73381B59F124003B4EA1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73271B59F124003B4EA1 /* AFSecurityPolicy.m */; };
+		36CB73391B59F124003B4EA1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73271B59F124003B4EA1 /* AFSecurityPolicy.m */; };
+		36CB733A1B59F124003B4EA1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73291B59F124003B4EA1 /* AFURLConnectionOperation.m */; };
+		36CB733B1B59F124003B4EA1 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73291B59F124003B4EA1 /* AFURLConnectionOperation.m */; };
+		36CB733C1B59F124003B4EA1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732B1B59F124003B4EA1 /* AFURLRequestSerialization.m */; };
+		36CB733D1B59F124003B4EA1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732B1B59F124003B4EA1 /* AFURLRequestSerialization.m */; };
+		36CB733E1B59F124003B4EA1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732D1B59F124003B4EA1 /* AFURLResponseSerialization.m */; };
+		36CB733F1B59F124003B4EA1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732D1B59F124003B4EA1 /* AFURLResponseSerialization.m */; };
+		36CB73401B59F124003B4EA1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732F1B59F124003B4EA1 /* AFURLSessionManager.m */; };
+		36CB73411B59F124003B4EA1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB732F1B59F124003B4EA1 /* AFURLSessionManager.m */; };
+		36CB73451B59F15B003B4EA1 /* ZYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73441B59F15B003B4EA1 /* ZYNetWorkTask.m */; };
+		36CB73461B59F15B003B4EA1 /* ZYNetWorkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73441B59F15B003B4EA1 /* ZYNetWorkTask.m */; };
+		36CB736A1B59F268003B4EA1 /* GJCFDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB734E1B59F268003B4EA1 /* GJCFDateUitil.m */; };
+		36CB736B1B59F268003B4EA1 /* GJCFDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB734E1B59F268003B4EA1 /* GJCFDateUitil.m */; };
+		36CB736C1B59F268003B4EA1 /* GJCFDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73531B59F268003B4EA1 /* GJCFDispatchCenterUitil.m */; };
+		36CB736D1B59F268003B4EA1 /* GJCFDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73531B59F268003B4EA1 /* GJCFDispatchCenterUitil.m */; };
+		36CB736E1B59F268003B4EA1 /* GJCFQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB735A1B59F268003B4EA1 /* GJCFQuickCacheUitil.m */; };
+		36CB736F1B59F268003B4EA1 /* GJCFQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB735A1B59F268003B4EA1 /* GJCFQuickCacheUitil.m */; };
+		36CB73701B59F268003B4EA1 /* GJCFQuickUIUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB735E1B59F268003B4EA1 /* GJCFQuickUIUitil.m */; };
+		36CB73711B59F268003B4EA1 /* GJCFQuickUIUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB735E1B59F268003B4EA1 /* GJCFQuickUIUitil.m */; };
+		36CB73721B59F268003B4EA1 /* GJCFStringUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73621B59F268003B4EA1 /* GJCFStringUitil.m */; };
+		36CB73731B59F268003B4EA1 /* GJCFStringUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73621B59F268003B4EA1 /* GJCFStringUitil.m */; };
+		36CB73741B59F268003B4EA1 /* GJCFSystemUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73661B59F268003B4EA1 /* GJCFSystemUitil.m */; };
+		36CB73751B59F268003B4EA1 /* GJCFSystemUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73661B59F268003B4EA1 /* GJCFSystemUitil.m */; };
+		36CB73761B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73691B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m */; };
+		36CB73771B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73691B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m */; };
+		36CB737A1B59F2F3003B4EA1 /* ZYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73791B59F2F3003B4EA1 /* ZYNetWorkManager.m */; };
+		36CB737B1B59F2F3003B4EA1 /* ZYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB73791B59F2F3003B4EA1 /* ZYNetWorkManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360BD5191B54AA0C005C206F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360BD4FD1B54AA0C005C206F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360BD5041B54AA0C005C206F;
+			remoteInfo = ZYNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		360BD5051B54AA0C005C206F /* ZYNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		360BD5091B54AA0C005C206F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360BD50A1B54AA0C005C206F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		360BD50C1B54AA0C005C206F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		360BD50D1B54AA0C005C206F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		360BD50F1B54AA0C005C206F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		360BD5121B54AA0C005C206F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		360BD5181B54AA0C005C206F /* ZYNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		360BD51D1B54AA0C005C206F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360BD51E1B54AA0C005C206F /* ZYNetworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYNetworkTests.m; sourceTree = "<group>"; };
+		360BD5281B54AA21005C206F /* ZYNetwork-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZYNetwork-PrefixHeader.pch"; sourceTree = "<group>"; };
+		360BD52A1B54AA58005C206F /* TVGDebugConsoleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugConsoleViewController.h; sourceTree = "<group>"; };
+		360BD52B1B54AA58005C206F /* TVGDebugConsoleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugConsoleViewController.m; sourceTree = "<group>"; };
+		360BD52C1B54AA58005C206F /* TVGDebugLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugLogger.h; sourceTree = "<group>"; };
+		360BD52D1B54AA58005C206F /* TVGDebugLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugLogger.m; sourceTree = "<group>"; };
+		360BD52E1B54AA58005C206F /* TVGDebugModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugModel.h; sourceTree = "<group>"; };
+		360BD52F1B54AA58005C206F /* TVGDebugModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugModel.m; sourceTree = "<group>"; };
+		360BD5301B54AA58005C206F /* TVGDebugQuickUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugQuickUI.h; sourceTree = "<group>"; };
+		360BD5311B54AA58005C206F /* TVGDebugQuickUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugQuickUI.m; sourceTree = "<group>"; };
+		360BD5321B54AA58005C206F /* TVGDebugSectionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugSectionInfo.h; sourceTree = "<group>"; };
+		360BD5331B54AA58005C206F /* TVGDebugSectionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugSectionInfo.m; sourceTree = "<group>"; };
+		360BD5341B54AA58005C206F /* TVGDebugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVGDebugViewController.h; sourceTree = "<group>"; };
+		360BD5351B54AA58005C206F /* TVGDebugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVGDebugViewController.m; sourceTree = "<group>"; };
+		360BD5431B54AAEC005C206F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		360BD5441B54AAEC005C206F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		36CB731D1B59F124003B4EA1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		36CB731E1B59F124003B4EA1 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		36CB731F1B59F124003B4EA1 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		36CB73201B59F124003B4EA1 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		36CB73211B59F124003B4EA1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		36CB73221B59F124003B4EA1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		36CB73231B59F124003B4EA1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		36CB73241B59F124003B4EA1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		36CB73251B59F124003B4EA1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		36CB73261B59F124003B4EA1 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		36CB73271B59F124003B4EA1 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		36CB73281B59F124003B4EA1 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		36CB73291B59F124003B4EA1 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		36CB732A1B59F124003B4EA1 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		36CB732B1B59F124003B4EA1 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		36CB732C1B59F124003B4EA1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		36CB732D1B59F124003B4EA1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		36CB732E1B59F124003B4EA1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		36CB732F1B59F124003B4EA1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		36CB73431B59F15B003B4EA1 /* ZYNetWorkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkTask.h; sourceTree = "<group>"; };
+		36CB73441B59F15B003B4EA1 /* ZYNetWorkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkTask.m; sourceTree = "<group>"; };
+		36CB73471B59F19A003B4EA1 /* ZYNetWorkConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkConst.h; sourceTree = "<group>"; };
+		36CB734D1B59F268003B4EA1 /* GJCFDateUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDateUitil.h; sourceTree = "<group>"; };
+		36CB734E1B59F268003B4EA1 /* GJCFDateUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFDateUitil.m; sourceTree = "<group>"; };
+		36CB734F1B59F268003B4EA1 /* GJCFDateUitilMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDateUitilMacrocDefine.h; sourceTree = "<group>"; };
+		36CB73521B59F268003B4EA1 /* GJCFDispatchCenterUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDispatchCenterUitil.h; sourceTree = "<group>"; };
+		36CB73531B59F268003B4EA1 /* GJCFDispatchCenterUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFDispatchCenterUitil.m; sourceTree = "<group>"; };
+		36CB73541B59F268003B4EA1 /* GJCFDispatchMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDispatchMacrocDefine.h; sourceTree = "<group>"; };
+		36CB73551B59F268003B4EA1 /* GJCFUitils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFUitils.h; sourceTree = "<group>"; };
+		36CB73581B59F268003B4EA1 /* GJCFQuickCacheMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickCacheMacrocDefine.h; sourceTree = "<group>"; };
+		36CB73591B59F268003B4EA1 /* GJCFQuickCacheUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickCacheUitil.h; sourceTree = "<group>"; };
+		36CB735A1B59F268003B4EA1 /* GJCFQuickCacheUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFQuickCacheUitil.m; sourceTree = "<group>"; };
+		36CB735C1B59F268003B4EA1 /* GJCFQuickUIMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickUIMacrocDefine.h; sourceTree = "<group>"; };
+		36CB735D1B59F268003B4EA1 /* GJCFQuickUIUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickUIUitil.h; sourceTree = "<group>"; };
+		36CB735E1B59F268003B4EA1 /* GJCFQuickUIUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFQuickUIUitil.m; sourceTree = "<group>"; };
+		36CB73601B59F268003B4EA1 /* GJCFStringMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFStringMacrocDefine.h; sourceTree = "<group>"; };
+		36CB73611B59F268003B4EA1 /* GJCFStringUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFStringUitil.h; sourceTree = "<group>"; };
+		36CB73621B59F268003B4EA1 /* GJCFStringUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFStringUitil.m; sourceTree = "<group>"; };
+		36CB73641B59F268003B4EA1 /* GJCFSystemMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFSystemMacrocDefine.h; sourceTree = "<group>"; };
+		36CB73651B59F268003B4EA1 /* GJCFSystemUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFSystemUitil.h; sourceTree = "<group>"; };
+		36CB73661B59F268003B4EA1 /* GJCFSystemUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFSystemUitil.m; sourceTree = "<group>"; };
+		36CB73681B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GJCFViewFrameUitil.h"; sourceTree = "<group>"; };
+		36CB73691B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GJCFViewFrameUitil.m"; sourceTree = "<group>"; };
+		36CB73781B59F2F3003B4EA1 /* ZYNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYNetWorkManager.h; sourceTree = "<group>"; };
+		36CB73791B59F2F3003B4EA1 /* ZYNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYNetWorkManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360BD5021B54AA0C005C206F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360BD5151B54AA0C005C206F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360BD4FC1B54AA0C005C206F = {
+			isa = PBXGroup;
+			children = (
+				360BD5071B54AA0C005C206F /* ZYNetwork */,
+				360BD51B1B54AA0C005C206F /* ZYNetworkTests */,
+				360BD5061B54AA0C005C206F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		360BD5061B54AA0C005C206F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				360BD5051B54AA0C005C206F /* ZYNetwork.app */,
+				360BD5181B54AA0C005C206F /* ZYNetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		360BD5071B54AA0C005C206F /* ZYNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				36CB734B1B59F268003B4EA1 /* GJCFUitils */,
+				36CB73421B59F13B003B4EA1 /* ZYNetWork */,
+				36CB731C1B59F124003B4EA1 /* AFNetworking */,
+				360BD5421B54AA7B005C206F /* Demo */,
+				360BD5291B54AA58005C206F /* Debug */,
+				360BD50C1B54AA0C005C206F /* AppDelegate.h */,
+				360BD50D1B54AA0C005C206F /* AppDelegate.m */,
+				360BD50F1B54AA0C005C206F /* Images.xcassets */,
+				360BD5111B54AA0C005C206F /* LaunchScreen.xib */,
+				360BD5081B54AA0C005C206F /* Supporting Files */,
+			);
+			path = ZYNetwork;
+			sourceTree = "<group>";
+		};
+		360BD5081B54AA0C005C206F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360BD5091B54AA0C005C206F /* Info.plist */,
+				360BD50A1B54AA0C005C206F /* main.m */,
+				360BD5281B54AA21005C206F /* ZYNetwork-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		360BD51B1B54AA0C005C206F /* ZYNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				360BD51E1B54AA0C005C206F /* ZYNetworkTests.m */,
+				360BD51C1B54AA0C005C206F /* Supporting Files */,
+			);
+			path = ZYNetworkTests;
+			sourceTree = "<group>";
+		};
+		360BD51C1B54AA0C005C206F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				360BD51D1B54AA0C005C206F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		360BD5291B54AA58005C206F /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				360BD52A1B54AA58005C206F /* TVGDebugConsoleViewController.h */,
+				360BD52B1B54AA58005C206F /* TVGDebugConsoleViewController.m */,
+				360BD52C1B54AA58005C206F /* TVGDebugLogger.h */,
+				360BD52D1B54AA58005C206F /* TVGDebugLogger.m */,
+				360BD52E1B54AA58005C206F /* TVGDebugModel.h */,
+				360BD52F1B54AA58005C206F /* TVGDebugModel.m */,
+				360BD5301B54AA58005C206F /* TVGDebugQuickUI.h */,
+				360BD5311B54AA58005C206F /* TVGDebugQuickUI.m */,
+				360BD5321B54AA58005C206F /* TVGDebugSectionInfo.h */,
+				360BD5331B54AA58005C206F /* TVGDebugSectionInfo.m */,
+				360BD5341B54AA58005C206F /* TVGDebugViewController.h */,
+				360BD5351B54AA58005C206F /* TVGDebugViewController.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		360BD5421B54AA7B005C206F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				360BD5431B54AAEC005C206F /* DemoViewController.h */,
+				360BD5441B54AAEC005C206F /* DemoViewController.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		36CB731C1B59F124003B4EA1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				36CB731D1B59F124003B4EA1 /* AFHTTPRequestOperation.h */,
+				36CB731E1B59F124003B4EA1 /* AFHTTPRequestOperation.m */,
+				36CB731F1B59F124003B4EA1 /* AFHTTPRequestOperationManager.h */,
+				36CB73201B59F124003B4EA1 /* AFHTTPRequestOperationManager.m */,
+				36CB73211B59F124003B4EA1 /* AFHTTPSessionManager.h */,
+				36CB73221B59F124003B4EA1 /* AFHTTPSessionManager.m */,
+				36CB73231B59F124003B4EA1 /* AFNetworking.h */,
+				36CB73241B59F124003B4EA1 /* AFNetworkReachabilityManager.h */,
+				36CB73251B59F124003B4EA1 /* AFNetworkReachabilityManager.m */,
+				36CB73261B59F124003B4EA1 /* AFSecurityPolicy.h */,
+				36CB73271B59F124003B4EA1 /* AFSecurityPolicy.m */,
+				36CB73281B59F124003B4EA1 /* AFURLConnectionOperation.h */,
+				36CB73291B59F124003B4EA1 /* AFURLConnectionOperation.m */,
+				36CB732A1B59F124003B4EA1 /* AFURLRequestSerialization.h */,
+				36CB732B1B59F124003B4EA1 /* AFURLRequestSerialization.m */,
+				36CB732C1B59F124003B4EA1 /* AFURLResponseSerialization.h */,
+				36CB732D1B59F124003B4EA1 /* AFURLResponseSerialization.m */,
+				36CB732E1B59F124003B4EA1 /* AFURLSessionManager.h */,
+				36CB732F1B59F124003B4EA1 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		36CB73421B59F13B003B4EA1 /* ZYNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73431B59F15B003B4EA1 /* ZYNetWorkTask.h */,
+				36CB73441B59F15B003B4EA1 /* ZYNetWorkTask.m */,
+				36CB73471B59F19A003B4EA1 /* ZYNetWorkConst.h */,
+				36CB73781B59F2F3003B4EA1 /* ZYNetWorkManager.h */,
+				36CB73791B59F2F3003B4EA1 /* ZYNetWorkManager.m */,
+			);
+			path = ZYNetWork;
+			sourceTree = "<group>";
+		};
+		36CB734B1B59F268003B4EA1 /* GJCFUitils */ = {
+			isa = PBXGroup;
+			children = (
+				36CB734C1B59F268003B4EA1 /* DateUitil */,
+				36CB73501B59F268003B4EA1 /* DeviceInfoUitil */,
+				36CB73511B59F268003B4EA1 /* DispatchCenterUitil */,
+				36CB73551B59F268003B4EA1 /* GJCFUitils.h */,
+				36CB73561B59F268003B4EA1 /* KeychainUitil */,
+				36CB73571B59F268003B4EA1 /* QuickCacheUitil */,
+				36CB735B1B59F268003B4EA1 /* QuickUIUitil */,
+				36CB735F1B59F268003B4EA1 /* StringUitil */,
+				36CB73631B59F268003B4EA1 /* SystemUitil */,
+				36CB73671B59F268003B4EA1 /* UitilCategory */,
+			);
+			path = GJCFUitils;
+			sourceTree = "<group>";
+		};
+		36CB734C1B59F268003B4EA1 /* DateUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB734D1B59F268003B4EA1 /* GJCFDateUitil.h */,
+				36CB734E1B59F268003B4EA1 /* GJCFDateUitil.m */,
+				36CB734F1B59F268003B4EA1 /* GJCFDateUitilMacrocDefine.h */,
+			);
+			path = DateUitil;
+			sourceTree = "<group>";
+		};
+		36CB73501B59F268003B4EA1 /* DeviceInfoUitil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DeviceInfoUitil;
+			sourceTree = "<group>";
+		};
+		36CB73511B59F268003B4EA1 /* DispatchCenterUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73521B59F268003B4EA1 /* GJCFDispatchCenterUitil.h */,
+				36CB73531B59F268003B4EA1 /* GJCFDispatchCenterUitil.m */,
+				36CB73541B59F268003B4EA1 /* GJCFDispatchMacrocDefine.h */,
+			);
+			path = DispatchCenterUitil;
+			sourceTree = "<group>";
+		};
+		36CB73561B59F268003B4EA1 /* KeychainUitil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KeychainUitil;
+			sourceTree = "<group>";
+		};
+		36CB73571B59F268003B4EA1 /* QuickCacheUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73581B59F268003B4EA1 /* GJCFQuickCacheMacrocDefine.h */,
+				36CB73591B59F268003B4EA1 /* GJCFQuickCacheUitil.h */,
+				36CB735A1B59F268003B4EA1 /* GJCFQuickCacheUitil.m */,
+			);
+			path = QuickCacheUitil;
+			sourceTree = "<group>";
+		};
+		36CB735B1B59F268003B4EA1 /* QuickUIUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB735C1B59F268003B4EA1 /* GJCFQuickUIMacrocDefine.h */,
+				36CB735D1B59F268003B4EA1 /* GJCFQuickUIUitil.h */,
+				36CB735E1B59F268003B4EA1 /* GJCFQuickUIUitil.m */,
+			);
+			path = QuickUIUitil;
+			sourceTree = "<group>";
+		};
+		36CB735F1B59F268003B4EA1 /* StringUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73601B59F268003B4EA1 /* GJCFStringMacrocDefine.h */,
+				36CB73611B59F268003B4EA1 /* GJCFStringUitil.h */,
+				36CB73621B59F268003B4EA1 /* GJCFStringUitil.m */,
+			);
+			path = StringUitil;
+			sourceTree = "<group>";
+		};
+		36CB73631B59F268003B4EA1 /* SystemUitil */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73641B59F268003B4EA1 /* GJCFSystemMacrocDefine.h */,
+				36CB73651B59F268003B4EA1 /* GJCFSystemUitil.h */,
+				36CB73661B59F268003B4EA1 /* GJCFSystemUitil.m */,
+			);
+			path = SystemUitil;
+			sourceTree = "<group>";
+		};
+		36CB73671B59F268003B4EA1 /* UitilCategory */ = {
+			isa = PBXGroup;
+			children = (
+				36CB73681B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.h */,
+				36CB73691B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m */,
+			);
+			path = UitilCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		360BD5041B54AA0C005C206F /* ZYNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360BD5221B54AA0C005C206F /* Build configuration list for PBXNativeTarget "ZYNetwork" */;
+			buildPhases = (
+				360BD5011B54AA0C005C206F /* Sources */,
+				360BD5021B54AA0C005C206F /* Frameworks */,
+				360BD5031B54AA0C005C206F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYNetwork;
+			productName = ZYNetwork;
+			productReference = 360BD5051B54AA0C005C206F /* ZYNetwork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		360BD5171B54AA0C005C206F /* ZYNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360BD5251B54AA0C005C206F /* Build configuration list for PBXNativeTarget "ZYNetworkTests" */;
+			buildPhases = (
+				360BD5141B54AA0C005C206F /* Sources */,
+				360BD5151B54AA0C005C206F /* Frameworks */,
+				360BD5161B54AA0C005C206F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360BD51A1B54AA0C005C206F /* PBXTargetDependency */,
+			);
+			name = ZYNetworkTests;
+			productName = ZYNetworkTests;
+			productReference = 360BD5181B54AA0C005C206F /* ZYNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		360BD4FD1B54AA0C005C206F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZYProSoft;
+				TargetAttributes = {
+					360BD5041B54AA0C005C206F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					360BD5171B54AA0C005C206F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 360BD5041B54AA0C005C206F;
+					};
+				};
+			};
+			buildConfigurationList = 360BD5001B54AA0C005C206F /* Build configuration list for PBXProject "ZYNetwork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 360BD4FC1B54AA0C005C206F;
+			productRefGroup = 360BD5061B54AA0C005C206F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				360BD5041B54AA0C005C206F /* ZYNetwork */,
+				360BD5171B54AA0C005C206F /* ZYNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		360BD5031B54AA0C005C206F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360BD5131B54AA0C005C206F /* LaunchScreen.xib in Resources */,
+				360BD5101B54AA0C005C206F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360BD5161B54AA0C005C206F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		360BD5011B54AA0C005C206F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CB736E1B59F268003B4EA1 /* GJCFQuickCacheUitil.m in Sources */,
+				36CB73381B59F124003B4EA1 /* AFSecurityPolicy.m in Sources */,
+				36CB736A1B59F268003B4EA1 /* GJCFDateUitil.m in Sources */,
+				360BD53A1B54AA58005C206F /* TVGDebugModel.m in Sources */,
+				36CB737A1B59F2F3003B4EA1 /* ZYNetWorkManager.m in Sources */,
+				36CB73361B59F124003B4EA1 /* AFNetworkReachabilityManager.m in Sources */,
+				360BD5361B54AA58005C206F /* TVGDebugConsoleViewController.m in Sources */,
+				36CB733A1B59F124003B4EA1 /* AFURLConnectionOperation.m in Sources */,
+				36CB73301B59F124003B4EA1 /* AFHTTPRequestOperation.m in Sources */,
+				36CB736C1B59F268003B4EA1 /* GJCFDispatchCenterUitil.m in Sources */,
+				36CB73341B59F124003B4EA1 /* AFHTTPSessionManager.m in Sources */,
+				36CB733C1B59F124003B4EA1 /* AFURLRequestSerialization.m in Sources */,
+				36CB73701B59F268003B4EA1 /* GJCFQuickUIUitil.m in Sources */,
+				36CB73721B59F268003B4EA1 /* GJCFStringUitil.m in Sources */,
+				360BD5401B54AA58005C206F /* TVGDebugViewController.m in Sources */,
+				36CB73401B59F124003B4EA1 /* AFURLSessionManager.m in Sources */,
+				360BD50E1B54AA0C005C206F /* AppDelegate.m in Sources */,
+				36CB73321B59F124003B4EA1 /* AFHTTPRequestOperationManager.m in Sources */,
+				36CB73741B59F268003B4EA1 /* GJCFSystemUitil.m in Sources */,
+				360BD50B1B54AA0C005C206F /* main.m in Sources */,
+				36CB73761B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m in Sources */,
+				36CB733E1B59F124003B4EA1 /* AFURLResponseSerialization.m in Sources */,
+				36CB73451B59F15B003B4EA1 /* ZYNetWorkTask.m in Sources */,
+				360BD53E1B54AA58005C206F /* TVGDebugSectionInfo.m in Sources */,
+				360BD5451B54AAEC005C206F /* DemoViewController.m in Sources */,
+				360BD5381B54AA58005C206F /* TVGDebugLogger.m in Sources */,
+				360BD53C1B54AA58005C206F /* TVGDebugQuickUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360BD5141B54AA0C005C206F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CB73411B59F124003B4EA1 /* AFURLSessionManager.m in Sources */,
+				36CB736F1B59F268003B4EA1 /* GJCFQuickCacheUitil.m in Sources */,
+				36CB733B1B59F124003B4EA1 /* AFURLConnectionOperation.m in Sources */,
+				36CB736D1B59F268003B4EA1 /* GJCFDispatchCenterUitil.m in Sources */,
+				36CB73771B59F268003B4EA1 /* UIView+GJCFViewFrameUitil.m in Sources */,
+				36CB73311B59F124003B4EA1 /* AFHTTPRequestOperation.m in Sources */,
+				360BD5371B54AA58005C206F /* TVGDebugConsoleViewController.m in Sources */,
+				36CB73331B59F124003B4EA1 /* AFHTTPRequestOperationManager.m in Sources */,
+				36CB736B1B59F268003B4EA1 /* GJCFDateUitil.m in Sources */,
+				360BD51F1B54AA0C005C206F /* ZYNetworkTests.m in Sources */,
+				360BD5411B54AA58005C206F /* TVGDebugViewController.m in Sources */,
+				36CB73751B59F268003B4EA1 /* GJCFSystemUitil.m in Sources */,
+				36CB73351B59F124003B4EA1 /* AFHTTPSessionManager.m in Sources */,
+				360BD5461B54AAEC005C206F /* DemoViewController.m in Sources */,
+				360BD53D1B54AA58005C206F /* TVGDebugQuickUI.m in Sources */,
+				36CB73731B59F268003B4EA1 /* GJCFStringUitil.m in Sources */,
+				36CB73711B59F268003B4EA1 /* GJCFQuickUIUitil.m in Sources */,
+				360BD5391B54AA58005C206F /* TVGDebugLogger.m in Sources */,
+				36CB73391B59F124003B4EA1 /* AFSecurityPolicy.m in Sources */,
+				36CB737B1B59F2F3003B4EA1 /* ZYNetWorkManager.m in Sources */,
+				360BD53B1B54AA58005C206F /* TVGDebugModel.m in Sources */,
+				36CB733D1B59F124003B4EA1 /* AFURLRequestSerialization.m in Sources */,
+				36CB73461B59F15B003B4EA1 /* ZYNetWorkTask.m in Sources */,
+				36CB73371B59F124003B4EA1 /* AFNetworkReachabilityManager.m in Sources */,
+				36CB733F1B59F124003B4EA1 /* AFURLResponseSerialization.m in Sources */,
+				360BD53F1B54AA58005C206F /* TVGDebugSectionInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360BD51A1B54AA0C005C206F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360BD5041B54AA0C005C206F /* ZYNetwork */;
+			targetProxy = 360BD5191B54AA0C005C206F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		360BD5111B54AA0C005C206F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				360BD5121B54AA0C005C206F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		360BD5201B54AA0C005C206F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYNetwork/ZYNetwork-PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		360BD5211B54AA0C005C206F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYNetwork/ZYNetwork-PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		360BD5231B54AA0C005C206F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		360BD5241B54AA0C005C206F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYNetwork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		360BD5261B54AA0C005C206F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYNetwork.app/ZYNetwork";
+			};
+			name = Debug;
+		};
+		360BD5271B54AA0C005C206F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZYNetworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYNetwork.app/ZYNetwork";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		360BD5001B54AA0C005C206F /* Build configuration list for PBXProject "ZYNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360BD5201B54AA0C005C206F /* Debug */,
+				360BD5211B54AA0C005C206F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360BD5221B54AA0C005C206F /* Build configuration list for PBXNativeTarget "ZYNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360BD5231B54AA0C005C206F /* Debug */,
+				360BD5241B54AA0C005C206F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360BD5251B54AA0C005C206F /* Build configuration list for PBXNativeTarget "ZYNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360BD5261B54AA0C005C206F /* Debug */,
+				360BD5271B54AA0C005C206F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 360BD4FD1B54AA0C005C206F /* Project object */;
+}
